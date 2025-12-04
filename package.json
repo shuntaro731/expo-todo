@@ -1,0 +1,33 @@
+{
+  "name": "expo-todo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "expo": "~54.0.25",
+    "expo-status-bar": "~3.0.8",
+    "nativewind": "^5.0.0-preview.2",
+    "react": "19.1.0",
+    "react-native": "0.81.5",
+    "react-native-css": "^3.0.1",
+    "react-native-reanimated": "~4.1.1",
+    "react-native-safe-area-context": "~5.6.0"
+  },
+  "private": true,
+
+  
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.17",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.17"
+
+  },
+  "overrides": {
+    "lightningcss": "1.30.1"
+  }
+}
